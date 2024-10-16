@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Just+Another+Hand&family=Ms+Madi&family=Shadows+Into+Light+Two&display=swap" rel="stylesheet">    <link rel="stylesheet" href="estilo.css">
+    <script src="app.js" defer></script>
+    <title>Venta de videojuegos</title>
+</head>
+<body>
+    <header>
+        <h1>"ELIGE TU AVENTURA EN TU CONSOLA FAVORITA."</h1>
+    </header>
+
+    <!-- Nueva etiqueta y menú desplegable -->
+    <section class="selector-consola"> 
+        <label for="consolas">Elige tu consola:</label>
+        <select id="consolas" name="consolas">
+            <option value="playstation">PlayStation</option>
+            <option value="xbox">Xbox</option>
+            <option value="nintendo">Nintendo</option>
+        </select>
+    </section>
+
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items" id="contenedor-items">
+            <!-- Los productos se van a cargar dinámicamente aquí -->
+        </div>
+
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+            <div class="carrito-items"></div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">$0,00</span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i></button> 
+                <button class="btn-vaciar">Vaciar Carrito <i class="fa-solid fa-trash"></i></button>
+
+            </div>
+        </div>
+    </section>
+
+        <!-- Modal para el Trailer -->
+    <div id="modal-trailer" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar-modal">&times;</span>
+            <iframe id="video-trailer" width="560" height="315" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+</body>
+</html>
