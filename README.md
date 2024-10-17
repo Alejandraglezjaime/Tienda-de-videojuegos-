@@ -21,5 +21,3 @@ Al seleccioar el botón de agregar al carrito debe aparecer una sección donde m
 ![Imagen carrito de compra](https://github.com/Alejandraglezjaime/Tienda-de-videojuegos-/blob/master/img/assets/ventana_carrito.jpg?raw=true)
 
 ![Imagen cortina de youtube](https://github.com/Alejandraglezjaime/Tienda-de-videojuegos-/blob/master/img/assets/cortina_youtube.jpg?raw=true)
-
-![Imagen menu despegable](https://github.com/Alejandraglezjaime/Tienda-de-videojuegos-/blob/master/img/assets/cortina_youtube.jpg?raw=true)
